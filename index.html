@@ -7,36 +7,57 @@
     <meta name="description" content="The Odin Project - Google Homepage">
     <meta name="author" content="Kenneth Comollo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="xxxxxxx">
 </head>
 
 <body>
 
     <header>
-        <div>Gmail</div>
-        <div>Images</div>
-        <div>AppIcon</div>
-        <div>UserIcon</div>
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li>AppIcon</li>
+            <li>UserIcon</li>
+        </ul>
     </header>
 
     <main>
+        <div>
+            <img src="images/google-logo.png" alt="Google Logo" />
+        </div>
+        <div class="main-input">
+            <form class="main-form">
+                <div class="form-group">
+                    <div>
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" placeholder="Search Google or type a URL" x-webkit-speech />
+                    </div>
+                    <div>
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                </div>
 
-        <h1>Google</h1>
-        <input type="text">
+            </form>
+        </div>
 
     </main>
 
-    <footer>
-        <div class="left-footer">
-            <div>Advertising</div>
-            <div>Business</div>
-            <div>About</div>
-            <div>How Search Works</div>
-        </div>
-        <div class="right-footer">
-            <div>Privacy</div>
-            <div>Terms</div>
-            <div>Settings</div>
+    <footer class="footer">
+        <div>
+            <ul class="left-footer">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>About</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul class="right-footer">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
         </div>
 
     </footer>
