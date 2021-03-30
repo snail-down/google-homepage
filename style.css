@@ -8,3 +8,23 @@ html {
 ul {
     list-style-type: none;
 }
+
+.header-container {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    width: 12%;
+}
+
+.right-header {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    width: 24%;
+}
