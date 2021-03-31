@@ -15,7 +15,7 @@ ul {
     justify-content: space-between;
 }
 
-.left-header {
+.left-header, .right-header {
     display: flex;
     background-color: red;
     justify-content: space-around;
@@ -23,8 +23,6 @@ ul {
 }
 
 .right-header {
-    display: flex;
     background-color: aqua;
-    justify-content: space-around;
     width: 24%;
 }
