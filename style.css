@@ -1,21 +1,23 @@
 html {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
+
 }
 
 ul {
     list-style-type: none;
 }
 
-.header-container {
+.links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-container, .footer-container {
     display: flex;
     background-color: yellow;
     justify-content: space-between;
 }
 
-.left-header, .right-header {
+.left-header, .right-header, .left-footer, .right-footer {
     display: flex;
     background-color: red;
     justify-content: space-around;
@@ -26,3 +28,18 @@ ul {
     background-color: aqua;
     width: 24%;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-footer {
+    width: 30%;
+}
+
+.right-footer {
+    width: 20%;
+}
+
