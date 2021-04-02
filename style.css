@@ -2,6 +2,40 @@ html {
 
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    width: 650px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid lightgray 1px;
+    border-radius: 25px;
+    height: 38px;
+    padding: 7px;
+}
+
+.form-input {
+    width: 90%;
+    float: left;
+}
+
+input {
+    border: none;
+}
+
+.fas {
+    color: gray;
+}
+
 .header {
     position: absolute;
     top: 0;
