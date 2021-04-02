@@ -13,29 +13,6 @@ main {
     width: 650px;
 }
 
-.form-group {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: solid lightgray 1px;
-    border-radius: 25px;
-    height: 38px;
-    padding: 7px;
-}
-
-.form-input {
-    width: 90%;
-    float: left;
-}
-
-input {
-    border: none;
-}
-
-.fas {
-    color: gray;
-}
-
 .header {
     position: absolute;
     top: 0;
@@ -67,7 +44,59 @@ ul {
 
 .right-header {
     background-color: aqua;
-    width: 24%;
+    width: 25%;
+}
+
+.fa-th {
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-in {
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-weight:600;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid lightgray 1px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    height: 35px;
+    padding: 7px;
+}
+
+.form-input {
+    width: 90%;
+}
+
+input {
+    border: none;
+}
+
+.fas {
+    color: gray;
+}
+
+.submits {
+    background-color: white;
+    padding: 9px;
+    margin: 5px;
+    font-size: 16.5px;
+}
+
+.submits:hover {
+    border: solid #dadce0 1px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 .footer {
